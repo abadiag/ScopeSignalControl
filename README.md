@@ -18,6 +18,6 @@ instantiate ScopeView and add to child of another view.
     
     After that the values setted on scopeview.inputValue will be represented in a Scope Screen in real time.
     
-    scopeView.inputValue = 9.3  <--some dounle value wich change along time
+    scopeView.inputValue = 9.3  <--some double value wich change along time
     
     
