@@ -178,7 +178,7 @@ namespace ScopeSignalControl
             //Set initial values
             RefreshTime = 10;
             timeStep = 2;
-            Speed = 5;
+            Speed = 2;
 
             inputValue = 0.0;
 
