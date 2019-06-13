@@ -58,6 +58,8 @@
     <Compile Include="ScopeView.xaml.cs">
       <DependentUpon>ScopeView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SignalGenerator.cs" />
+    <Compile Include="TimerClass.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

@@ -8,6 +8,12 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid Name="mainContainer">
         <Slider HorizontalAlignment="Left" Margin="29,10,0,0" VerticalAlignment="Top" Width="157" ValueChanged="Slider_ValueChanged" Maximum="100" Minimum="-100"/>
+        <Button Content="Listen Generator" HorizontalAlignment="Left" Margin="29,60,0,0" VerticalAlignment="Top" Width="111" Click="Button_Click"/>
+        <ComboBox x:Name="WaveFormCombo" HorizontalAlignment="Left" Margin="29,115,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="WaveFormCombo_SelectionChanged"/>
+        <TextBox x:Name="FreqTextBox" HorizontalAlignment="Left" Height="21" Margin="105,219,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="44" TextChanged="FreqTextBox_TextChanged" />
+        <TextBlock HorizontalAlignment="Left" Margin="29,194,0,0" TextWrapping="Wrap" Text="Amplitude" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="29,222,0,0" TextWrapping="Wrap" Text="Frequency" VerticalAlignment="Top"/>
+        <TextBox x:Name="AmpTextBox" HorizontalAlignment="Left" Height="23" Margin="105,191,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="44" TextChanged="AmpTextBox_TextChanged" AutomationProperties.HelpText="Put amplitude value" IsUndoEnabled="False"/>
 
     </Grid>
 </Window>
