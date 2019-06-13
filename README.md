@@ -20,4 +20,6 @@ instantiate ScopeView and add to child of another view.
     
     scopeView.inputValue = 9.3  <--some double value wich change along time
     
-    
+  Screen Capture:
+  
+https://user-images.githubusercontent.com/38919412/59463265-e8ab8600-8e25-11e9-8fd9-ef2d4aa94f19.PNG
